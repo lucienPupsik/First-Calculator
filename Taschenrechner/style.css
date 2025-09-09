@@ -1,0 +1,92 @@
+body{
+    font-family: "Roboto", sans-serif;
+    margin:0;
+    }        
+
+table {
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(104, 57, 57);color: white;
+    }
+
+td {
+    text-align: center;
+    width: 25%;
+    font-size: 24px;
+    background-color: rgb(231, 231, 231);
+    }
+
+#Nummern:hover {
+    background-color:  rgb(17, 17, 17);
+    cursor: pointer;
+    }
+
+#result:hover {
+    background-color: rgb(22, 22, 185);
+    color: white;
+    cursor: pointer;
+    }
+
+#result {
+    background-color: rgb(37, 26, 199);
+    color: white;
+    font-size: 24px;
+            
+    }
+
+
+#resultArea {
+    font-size: 70px;
+    color: white;
+    height: 30vh;
+    background-color: rgb(30,30,30);
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding : 20px;
+    box-sizing: border-box;
+
+        }
+
+#DELETE:hover {
+    background-color: rgb(240, 142, 77);
+    color: white;
+    cursor: pointer;
+        }
+
+#DELETE {
+    background-color: rgb(206, 95, 21);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+        }
+
+#Nummern {
+    background-color: rgb(40, 40, 40);
+    color: white;
+    font-size: 24px;
+        }
+            
+            
+.highlight {
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+
+
+        }
+
+
+.highlight:hover {
+    background-color: rgb(54, 54, 54);
+    color: white;
+    cursor: pointer;
+        }       
+
+#Clear {
+    background-color: rgb(29, 46, 40);
+    color: white;
+    cursor : pointer;
+
+}
